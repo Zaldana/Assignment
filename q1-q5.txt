@@ -1,15 +1,23 @@
-1. What is a javascript function? 
-
+1. What is a javascript function?
+	
+A javascript function is a set of instructions to perform a specific task,  called/invoked by using open and closing parenthesis.
 
 2. What is a callback?
 
+A callback function is a function that is passed into another function as an argument then invoked/called by that function.
 
-3. can callbacks only be used in asynchronous code?
+3. Can callbacks only be used in asynchronous code?
 
+Yes, .then() is an example of an async callback function.
 
 4. Why are javascript functions first-class citizens?
 
+Functions can be used as values of other types like variables and arguments.
 
 5. Explain javascript Closures?
 
+Closure refers to the enclosed references within a function. A function can access a defined ellement within the lexical environment. function “X” can not invoke elements defined in function “Y”, but it can invoke function “Y” to have access to the lexical environment of function “Y”.
+
 6. explain try/catch blocks
+
+A try block contains a set of instructions where an exception occurs. The try block is followed by the catch block which has the instructions for the exception of the try block.
