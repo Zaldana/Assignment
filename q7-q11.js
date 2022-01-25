@@ -38,7 +38,6 @@ console.log(getFunction()(2))
 // 11. write a function that takes "couldThrowError()" as a callback argument.
 // within that function call "couldThrowError" and console log its result.
 // Make sure to handle errors that could be thrown by "couldThrowError()"
-
 const couldThrowError = () => {
 
   if (Math.ceil(Math.random() * 2) < 2) {
